@@ -10,6 +10,10 @@
 
 set background=dark
 hi clear
+
+" compatibility addition to work with neovim 0.10
+source /usr/share/nvim/runtime/colors/vim.lua
+
 if exists("syntax_on")
    syntax reset
 endif
