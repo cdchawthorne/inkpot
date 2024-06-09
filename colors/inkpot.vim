@@ -221,7 +221,7 @@ else
     endif
     if v:version >= 703
         exec "hi Conceal      cterm=NONE      ctermfg=" . <SID>X(55) . " ctermbg=" . "NONE"
-        exec "hi ColorColumn  cterm=NONE      ctermbg=" . <SID>X(81)
+        exec "hi ColorColumn  cterm=NONE      ctermbg=60"
     endif
 endif
 
